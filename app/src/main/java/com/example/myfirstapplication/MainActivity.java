@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView txt = findViewById(R.id.txt);
+        TextView txt = findViewById(R.id.txt2);
 
         boolean flag = canBuyComputer();
         if(flag) {
